@@ -2,7 +2,7 @@ import collections
 
 import torch.nn
 
-from models.vggish_torch.vggish import vggish_params
+from vggish import vggish_params
 
 class VGGish(torch.nn.Module):
     def __init__(self):
